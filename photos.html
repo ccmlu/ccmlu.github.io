@@ -1,0 +1,10 @@
+---
+title: 活动照片
+layout: default
+---
+{% for photo in site.data.photos %}
+<div class="card mdl-shadow--3dp">
+<h1>{{photo.title}}</h1>
+<section><img src="/pics/{{photo.path}}"/></section>
+</div>
+{% endfor %}
