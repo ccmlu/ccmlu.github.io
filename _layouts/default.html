@@ -8,6 +8,9 @@
                 <script src="./mdl/material.min.js"></script>
                 <link href="//fonts.useso.com/icon?family=Material+Icons" rel="stylesheet">
                 <link href='//fonts.useso.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+                {% if page.css %}
+                <link href="/css/{{page.css}}" rel="stylesheet">
+                {% endif %}
 		<title>{{page.title}}</title>
 	</head>
 	<body>

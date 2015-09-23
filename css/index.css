@@ -1,0 +1,21 @@
+.layout{
+        top: 5em;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        width: auto;
+}
+.index-posts{
+        position: absolute;
+        top: 15em;
+        left: 0;
+        width: 70%;
+        margin: 0;
+}
+.index-photos{
+        position: absolute;
+        top: 15em;
+        right: 0;
+        width: 30%;
+        margin: 0;
+}

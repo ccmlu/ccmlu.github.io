@@ -3,8 +3,13 @@ title: 活动照片
 layout: default
 ---
 {% for photo in site.data.photos %}
+        {% for photo in site.data.photos %}
+                {% include tile.html path=photo.path title=photo.title %}
+        {% endfor %}
+<!--
 <div class="card mdl-shadow--3dp">
 <h1>{{photo.title}}</h1>
 <section><img src="/pics/{{photo.path}}"/></section>
 </div>
+-->
 {% endfor %}

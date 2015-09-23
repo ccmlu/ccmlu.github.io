@@ -13,3 +13,9 @@
 .card > section > li{
         list-style: none;
 }
+.layout>.header,.card{
+        position: relative;
+        margin: 1em;
+        padding: 2em;
+        background-color: white;
+}

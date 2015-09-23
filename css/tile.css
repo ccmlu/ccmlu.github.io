@@ -1,0 +1,16 @@
+.tile.mdl-card {
+  position: relative;
+  width: auto;
+  margin: 1em;
+  min-height: 25em;
+}
+.tile > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.tile-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}

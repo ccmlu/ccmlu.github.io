@@ -15,13 +15,9 @@ img{
         left: 15%;
         right: 15%;
         width: auto;
+        bottom: 0;
 }
-.layout>.header,.card{
-        position: relative;
-        margin: 2em;
-        padding: 2em;
-        background-color: white;
-}
+
 .header{
         height: 8em;
 }
