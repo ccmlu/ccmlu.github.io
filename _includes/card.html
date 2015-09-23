@@ -1,0 +1,8 @@
+<div class="card mdl-shadow--3dp">
+{% if include.url %}
+        <h1><a href="{{include.url}}">{{include.title}}</a></h1>
+{% else %}
+        <h1>{{include.title}}</h1>
+{% endif %}
+<section>{{include.content}}</section>
+</div>

@@ -5,8 +5,11 @@ title: 初出茅庐实践队
 
 
 {% for post in site.posts %}
+{% include card.html title=post.title url=content.url content=post.content %}
+<!--
 <div class="card mdl-shadow--3dp">
 <h1><a href="{{post.url}}">{{post.title}}</a></h1>
 <section>{{post.content}}</section>
 </div>
+-->
 {% endfor %}

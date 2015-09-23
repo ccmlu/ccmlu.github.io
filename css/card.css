@@ -1,0 +1,15 @@
+.card > h1{
+        color: #00897B;
+        font-size: 3em;
+}
+.card > section > h2{
+        font-size: 2em;
+        color: #424242;
+}
+.card > section > p,li{
+        font-size: 1.25em;
+        color: #616161;
+}
+.card > section > li{
+        list-style: none;
+}
