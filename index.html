@@ -8,8 +8,17 @@ css: index.css
         {% include card.html title=post.title url=post.url content=post.excerpt %}
         {% endfor %}
 </section>
+<script>
+
+</script>
 <section class="index-photos">
-        {% for photo in site.data.photos %}
+        
+        {% for photo in site.data.photos limit: 15 %}
                 {% include tile.html path=photo.path title=photo.title %}
         {% endfor %}
 </section>
+<!--
+<srction style="position: absolute;bottom: 2em;height: 3em">
+{% include card.html title="下一页" url=paginator.next_page_path %}
+</srction>
+-->

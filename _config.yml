@@ -11,4 +11,4 @@ github_username:  jekyll
 markdown: kramdown
 permalink: pretty
 paginate: 10
-paginate_path: "/pnum"
+paginate_path: "index/p:num"

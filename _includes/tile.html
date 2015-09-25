@@ -1,7 +1,12 @@
 <div class="tile mdl-card mdl-shadow--3dp"
      style="background:url('/pics/{{ include.path }}') center / cover;">
-        <div class="mdl-card__title mdl-card--expand"></div>
+        <div class="mdl-card__title mdl-card--expand">
+        </div>
         <div class="mdl-card__actions">
-                <span class="tile-title">{{ include.title }}</span>
+                        <a href="/pics/{{ include.path }}">
+                <span class="tile-title">
+                        {{ include.title }}
+                </span>
+                        </a>
         </div>
 </div>
