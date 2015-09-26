@@ -5,7 +5,7 @@ css: index.css
 ---
 <section class="index-posts">
         {% for post in site.posts %}
-        {% include card.html title=post.title url=post.url content=post.excerpt %}
+        {% include card.html title=post.title url=post.url content=post.content %}
         {% endfor %}
 </section>
 <script>
